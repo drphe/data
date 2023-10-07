@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script>Chart.js</script>
+        <title>Data ('title')</title>
+    </head>
+    <body>
+        <div class="container">
+            <canvas id="myChart" height="350" orientation="portrait"></canvas>
+        </div>
+        <script>
+            if (typeof Chart === "undefined") {
+                throw new Error("Chart.js is not defined");
+            }
+            Chart.defaults.global.defaultFontFamily = 'Lato, Arial';
+            Chart.defaults.global.defaultFontSize = 20;
+            Chart.defaults.global.defaultFontColor = '#777';
+	    // chèn dữ liệu ở đây
+            var widata = JSON.parse('Data (chart)');
+            const getRandomColor = function() {
+                var letters = '0123456789ABCDEF'.split('');
+                var color = '#'
+                for (var i = 0; i < 6; i++) {
+                    color += letters[Math.floor(Math.random() * 16)]
+                }
+                return color;
+            }
+            const dx = function(t) {
+                var e = new Date(t);
+                return e.getDate() + "/" + (e.getMonth() + 1) + "/" + e.getFullYear()
+            };
+	    const fomartNumber = (v,d = 0) => {
+			if (v>1e6) return (v/1e6).toFixed(d) + "M";
+			else if(v>1e3) return (v/1e3).toFixed(d) + 'k';
+			else return v;
+	    }
+            var datasets = [], typeChart = widata.series[0].type , numY = 'y-axis-1', y1 = {
+		ticks : {
+			callback: function (value, index, values){
+				if(value >=1000000) {
+					value = Math.floor(value/1000000) + "M";
+				}else if(value >=1000) {
+					value = Math.floor(value/1000) + "k";
+				}
+				return value;
+			}
+		},
+                title: {
+                    text: widata.series[0].unit,
+                },
+                id: "y-axis-1",
+            }, y2 = {
+                title: {
+                    text: ""
+                },
+                type: 'linear',
+                position: "right",
+                id: "y-axis-2",
+            }
+	    // tạo datasets
+            widata.series.forEach(s=>{
+                if (s.type !== typeChart) {
+                    numY = 'y-axis-2';
+                    y2.title.text = s.unit;
+                }
+                datasets.push({
+                    label: s.name,
+                    data: s.data.map(e=>e[1]).reverse(),
+                    yAxisID: numY,
+                    type: s.type,
+                    unit: s.unit,
+                    fill: s.type !== 'line',
+                    backgroundColor: getRandomColor(),
+                    borderColor: getRandomColor(),
+                });
+            }
+            );
+
+	    let config = {
+                type: typeChart,
+                data: {
+                    labels: widata.series[0].data.map(e=>dx(e[0])).reverse(),
+                    datasets: datasets
+                },
+                options: {
+                    scales: {
+                        yAxes: 'y-axis-1' == numY ? [y1] : [y1, y2],
+                    },
+                    xAxis: {
+                        type: "Date",
+                        autoScale: true
+                    },
+                    title: {
+                        display: true,
+                        text: widata.name,
+                        fontSize: 30,
+                    },
+                    legend: {
+                        display: true,
+                        position: 'bottom',
+                        labels: {
+                            fontColor: '#000',
+                        },
+                    },
+                    layout: {
+                        padding: {
+                            left: 10,
+                            right: 10,
+                            bottom: 0,
+                            top: 20,
+                        },
+                    },
+		    zoom: {enabled:true},
+                    tooltips: {
+                        enabled: true,
+                        callbacks: {
+                            label: function(t, data) {
+                                var label = data.datasets[t.datasetIndex].label || '';
+                                if (label) {
+                                    label += ': '
+                                }
+                                label += fomartNumber(t.yLabel,2) + ' ' + data.datasets[t.datasetIndex].unit
+                                return label;
+                            }
+                        }
+                    },
+                }
+	    }
+            let massPopChart = new Chart('myChart',config);
+        </script>
+    </body>
+</html>
