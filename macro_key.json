@@ -1053,6 +1053,13 @@
         "chiso": true
     },
     {
+        "keyWord": "Hang Seng Index",
+        "name": "hangseng_hsi",
+        "className": "179",
+        "type": "investing",
+        "chiso": true
+    },
+    {
         "keyWord": "CBOE Volatility Index (VIX)",
         "name": "volatility-sp500-vix-cboe",
         "className": "44336",
