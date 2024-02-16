@@ -1249,5 +1249,313 @@
         "className": "1967.json",
         "type": "investing",
         "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU TIẾP CẬN THỊ TRƯỜNG VINACAPITAL",
+        "name": "VESAF",
+        "className": 23,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU HƯNG THỊNH VINACAPITAL",
+        "name": "VEOF",
+        "className": 20,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ LỢI THẾ CẠNH TRANH BỀN VỮNG SSI",
+        "name": "SSISCA",
+        "className": 11,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU HÀNG ĐẦU VCBF",
+        "name": "VCBFBCF",
+        "className": 32,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CÂN BẰNG TUỆ SÁNG VINACAPITAL",
+        "name": "VIBF",
+        "className": 22,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU TRIỂN VỌNG BẢO VIỆT",
+        "name": "BVPF",
+        "className": 14,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CÂN BẰNG CHIẾN LƯỢC VCBF",
+        "name": "VCBFTBF",
+        "className": 31,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CHỨNG KHOÁN NĂNG ĐỘNG DC",
+        "name": "VFMVF1",
+        "className": 28,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU TĂNG TRƯỞNG MIRAE ASSET VIỆT NAM",
+        "name": "MAGEF",
+        "className": 35,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CÂN BẰNG BẢN VIỆT",
+        "name": "VCAMBF",
+        "className": 70,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CHỦ ĐỘNG VND",
+        "name": "VNDAF",
+        "className": 38,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU BẢO THỊNH VINACAPITAL",
+        "name": "VFF",
+        "className": 21,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU PVCOM",
+        "name": "PVBF",
+        "className": 45,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU TẬP TRUNG CỔ TỨC DC",
+        "name": "VFMVF4",
+        "className": 25,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU VND",
+        "name": "VNDBF",
+        "className": 37,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU VCBF",
+        "name": "VCBFFIF",
+        "className": 33,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TĂNG TRƯỞNG DFVN",
+        "name": "DCAF",
+        "className": 29,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU AN BÌNH",
+        "name": "ABBF",
+        "className": 65,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU DC",
+        "name": "VFMVFB",
+        "className": 27,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU NĂNG ĐỘNG BẢO VIỆT",
+        "name": "BVFED",
+        "className": 12,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU SSI",
+        "name": "SSIBF",
+        "className": 8,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CÂN BẰNG MANULIFE",
+        "name": "MAFBAL",
+        "className": 71,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU MB",
+        "name": "MBBOND",
+        "className": 48,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU BẢO VIỆT ",
+        "name": "BVBF",
+        "className": 13,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ GIÁ TRỊ MB CAPITAL",
+        "name": "MBVF",
+        "className": 47,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU MANULIFE",
+        "name": "MAFEQI",
+        "className": 72,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU GIA TĂNG THU NHẬP CỐ ĐỊNH DC",
+        "name": "VFMVFC",
+        "className": 67,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU DFVN",
+        "name": "DFIX",
+        "className": 30,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ GIA TĂNG GIÁ TRỊ GFM",
+        "name": "GFMVIF",
+        "className": 69,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU LINH HOẠT VND",
+        "name": "VNDCF",
+        "className": 40,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU KINH TẾ HIỆN ĐẠI VINACAPITAL",
+        "name": "VMPF",
+        "className": 68,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CHỌN LỌC PHÚ HƯNG VIỆT NAM",
+        "name": "PHVSF",
+        "className": 66,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU LIGHTHOUSE",
+        "name": "LHBF",
+        "className": 64,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU PHÁT TRIỂN VIỆT NAM VCAM-NH",
+        "name": "VCAMFI",
+        "className": 63,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU LỢI TỨC CAO HD",
+        "name": "HDBOND",
+        "className": 62,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CÂN BẰNG PVCOM",
+        "name": "PBIF",
+        "className": 61,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU UNITED ESG VIỆT NAM",
+        "name": "UVEEF",
+        "className": 58,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU THANH KHOẢN VINACAPITAL",
+        "name": "VLBF",
+        "className": 53,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU TRIỂN VỌNG NTP",
+        "name": "TVPF",
+        "className": 52,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU AN TOÀN AMBER",
+        "name": "ASBF",
+        "className": 51,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TRÁI PHIẾU LINH HOẠT MIRAE ASSET VIỆT NAM",
+        "name": "MAFF",
+        "className": 50,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ TĂNG TRƯỞNG DÀI HẠN VIỆT NAM",
+        "name": "VLGF",
+        "className": 49,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU TĂNG TRƯỞNG VCBF",
+        "name": "VCBFMGF",
+        "className": 46,
+        "type": "ccq",
+        "chiso": true
+    },
+    {
+        "keyWord": "QUỸ ĐẦU TƯ CỔ PHIẾU TĂNG TRƯỞNG BALLAD VIỆT NAM",
+        "name": "TBLF",
+        "className": 41,
+        "type": "ccq",
+        "chiso": true
     }
 ]

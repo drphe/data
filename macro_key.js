@@ -3,7 +3,8 @@
  * Anh Phê - F2chart extension version 2.2.2.4
  */
 //fetch("https://brains.tradingeconomics.com/v2/search/forex,bond,idx,commodity,mkt?q=ufb:com&pp=5&mkchart=1&p=0&_=1566570083316&stance=2").then(e=>e.json()).then(e=>{let t=e.hits.map(e=>({keyWord:e.name,name:e.pretty_name,className:e.s.toLowerCase()+"' + auth",type:"tradingeconomics"}));console.log(t)});
-const auth = '&span=1y&securify=new&url=/commodity/crude-oil&AUTH=sesame&ohlc=0'
+
+const auth = '&span=1y&securify=new&url=/commodity/crude-oil&AUTH=sesame&ohlc=0';
 const wiKeyword = [{
         keyWord: "Tăng trưởng kinh tế",
         className: "wi-g_d_p",
