@@ -2,5 +2,17 @@
   {
     "url": "vietstock.vn",
     "css": ".page-footer, #googleAds_top .breadcrumbs , .header-breadcrumb, .page-header-content {display: none!important;}"
+  },
+  {
+    "url": "engnovate.com",
+    "css": "footer,.comment-section, .announcement-bar,.featured-info {display: none!important;}"
+  },
+  {
+    "url": "lingq.com",
+    "css": ".review-links-button,.main-upgrade-cta,.promo-banner-section{display: none!important;}.has-radius{cursor: pointer;}"
+  },
+  {
+    "url": "voicetube.com",
+    "css": ".plan-button, .jmdoQf{display: none!important;}"
   }
 ]
