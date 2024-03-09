@@ -1,0 +1,4 @@
+[{
+    url: "vietstock.vn",
+    css: `.page-footer, #googleAds_top .breadcrumbs , .header-breadcrumb, .page-header-content {display: none!important;}`
+}]
