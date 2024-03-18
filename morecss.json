@@ -1,7 +1,7 @@
 [
   {
     "url": "vietstock.vn",
-    "css": ".vst-ads-top, .vst-ads-left, .vst-ads-bottom, .vst-ads-right, .page-footer, .trending-fixed,.bannerhtml1920x270,#googleAds_top .breadcrumbs , .header-breadcrumb, .page-header-content {display: none!important;}"
+    "css": ".footer_area3 ,.vst-ads-top, .vst-ads-left, .vst-ads-bottom, .vst-ads-right, .page-footer, .trending-fixed,.bannerhtml1920x270,#googleAds_top .breadcrumbs , .header-breadcrumb, .page-header-content {display: none!important;}"
   },
   {
     "url": "engnovate.com",
