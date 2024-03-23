@@ -14,5 +14,9 @@
   {
     "url": "voicetube.com",
     "css": ".plan-button, .jmdoQf{display: none!important;}"
-  }
+  },
+{
+"url": "cafef.vn",
+"css": ".banner0 {display: none!important;}"
+}
 ]
