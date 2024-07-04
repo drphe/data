@@ -18,5 +18,9 @@
 {
 "url": "cafef.vn",
 "css": ".banner0 {display: none!important;}"
+},
+{
+"url": "fireant.vn",
+"css": ".MXhEL {display: none!important;}"
 }
 ]
