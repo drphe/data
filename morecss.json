@@ -22,5 +22,9 @@
 {
 "url": "fireant.vn",
 "css": ".DZn, .MXhEL {display: none!important;}"
+},
+{
+"url": "hanzii.net",
+"css": ".box-banner-ads {display: none!important;}"
 }
 ]
