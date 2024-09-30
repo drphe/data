@@ -26,5 +26,9 @@
 {
 "url": "hanzii.net",
 "css": ".box-banner-ads {display: none!important;}"
+},
+{
+"url": "scopiolabs.com",
+"css": "#scan-login{display: none!important;}"
 }
 ]
