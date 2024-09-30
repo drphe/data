@@ -29,6 +29,6 @@
 },
 {
 "url": "scopiolabs.com",
-"css": "#scan-login{display: none!important;}"
+"css": "#scan-login, .starred{display: none!important;}"
 }
 ]
