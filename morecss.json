@@ -33,6 +33,6 @@
     },
     {
         "url": "medschool.co",
-        "css": ".welcome - pitch,.welcome - cover {display: none!important;}"
+        "css": ".welcome-pitch, .welcome-cover{display: none!important;}"
     }
 ]
