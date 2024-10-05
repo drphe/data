@@ -1,34 +1,38 @@
 [
-  {
-    "url": "vietstock.vn",
-    "css": ".footer_area3 ,.vst-ads-top, .vst-ads-left, .vst-ads-bottom, .vst-ads-right, .page-footer, .trending-fixed,.bannerhtml1920x270,#googleAds_top .breadcrumbs , .header-breadcrumb, .page-header-content {display: none!important;}"
-  },
-  {
-    "url": "engnovate.com",
-    "css": "footer,.comment-section, .announcement-bar,.featured-info {display: none!important;}"
-  },
-  {
-    "url": "lingq.com",
-    "css": ".review-links-button,.main-upgrade-cta,.promo-banner-section{display: none!important;}.has-radius{cursor: pointer;}"
-  },
-  {
-    "url": "voicetube.com",
-    "css": ".plan-button, .jmdoQf{display: none!important;}"
-  },
-{
-"url": "cafef.vn",
-"css": ".banner0 {display: none!important;}"
-},
-{
-"url": "fireant.vn",
-"css": ".efNYRo,.DZn, .MXhEL {display: none!important;}"
-},
-{
-"url": "hanzii.net",
-"css": ".box-banner-ads {display: none!important;}"
-},
-{
-"url": "scopiolabs.com",
-"css": "#scan-login, .starred{display: none!important;}"
-}
+    {
+        "url": "vietstock.vn",
+        "css": ".footer_area3 ,.vst-ads-top, .vst-ads-left, .vst-ads-bottom, .vst-ads-right, .page-footer, .trending-fixed,.bannerhtml1920x270,#googleAds_top .breadcrumbs , .header-breadcrumb, .page-header-content {display: none!important;}"
+    },
+    {
+        "url": "engnovate.com",
+        "css": "footer,.comment-section, .announcement-bar,.featured-info {display: none!important;}"
+    },
+    {
+        "url": "lingq.com",
+        "css": ".review-links-button,.main-upgrade-cta,.promo-banner-section{display: none!important;}.has-radius{cursor: pointer;}"
+    },
+    {
+        "url": "voicetube.com",
+        "css": ".plan-button, .jmdoQf{display: none!important;}"
+    },
+    {
+        "url": "cafef.vn",
+        "css": ".banner0 {display: none!important;}"
+    },
+    {
+        "url": "fireant.vn",
+        "css": ".efNYRo,.DZn, .MXhEL {display: none!important;}"
+    },
+    {
+        "url": "hanzii.net",
+        "css": ".box-banner-ads {display: none!important;}"
+    },
+    {
+        "url": "scopiolabs.com",
+        "css": "#scan-login, .starred{display: none!important;}"
+    },
+    {
+        "url": "medschool.co",
+        "css": ".welcome - pitch,.welcome - cover {display: none!important;}"
+    }
 ]
