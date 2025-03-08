@@ -34,5 +34,10 @@
     {
         "url": "medschool.co",
         "css": ".welcome-pitch, .welcome-cover{display: none!important;}"
-    }
+    },
+    {
+	"url": "investing.com",
+	"css": ".advertisement{display: none!important;}"
+
+}
 ]
