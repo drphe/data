@@ -39,5 +39,10 @@
 	"url": "investing.com",
 	"css": ".advertisement{display: none!important;}"
 
+},
+    {
+	"url": "barchart.com",
+	"css": ".bc-header-premier-ads{display: none!important;}"
+
 }
 ]
