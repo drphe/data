@@ -47,6 +47,6 @@
 	"css": "#floatcenter{display: none!important;}"
     },{
 	"url": "sstock.vn",
-	"css": 'image[opacity="0.5"][data-z-index="10"] {display: none !important;}'
+	"css": `image[opacity="0.5"][data-z-index="10"] {display: none !important;}`
     }
 ]
