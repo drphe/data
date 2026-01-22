@@ -1,19 +1,19 @@
 #EXTM3U
-#EXTINF:-1 group-title="Radio" tvg-logo="https://admin.vov.gov.vn/UploadFolder/KhoTin/Images/UploadFolder/VOVVN/Images/sites/default/files/2024-02/vov1.jpg", VOV1
-http://media.kythuatvov.vn:7001/;stream/
-#EXTINF:-1 group-title="Radio" tvg-logo="https://vov2.vov.vn/themes/custom/vov_news/logo.png", VOV2
-http://media.kythuatvov.vn:7003/;stream
-#EXTINF:-1 group-title="Radio" tvg-logo="https://vov3.vov.vn/sites/default/files/styles/front_medium/public/2021-12/Logo%20VOV3%20800x600%20edit.jpg", VOV3
-http://media.kythuatvov.vn:7005/;stream/
-#EXTINF:-1 group-title="Radio" tvg-logo="https://foxxradio.com/upload/vi/1671788849.png.webp", VOV4 Tây Bắc
+#EXTINF:-1 group-title="Radio" tvg-logo="http://kythuatvov.vn/wp-content/uploads/2021/01/Logo-27.png", VOV1 THỜI SỰ
+https://stream.vovmedia.vn/vov-1
+#EXTINF:-1 group-title="Radio" tvg-logo="http://kythuatvov.vn/wp-content/uploads/2021/01/Logo-28.png", VOV2 VĂN HÓA XÃ HỘI
+https://stream.vovmedia.vn/vov-2
+#EXTINF:-1 group-title="Radio" tvg-logo="http://kythuatvov.vn/wp-content/uploads/2021/01/Logo-29.png", VOV3 ÂM NHẠC
+https://stream.vovmedia.vn/vov-3
+#EXTINF:-1 group-title="Radio" tvg-logo="http://kythuatvov.vn/wp-content/uploads/2021/01/Logo-32.png", VOV4 Tây Bắc
 https://stream.vovmedia.vn/vov4tb
 #EXTINF:-1 group-title="Radio" tvg-logo="https://foxxradio.com/upload/vi/1671789125.png.webp", VOV4 Đông Bắc
 https://stream.vovmedia.vn/vov4db
-#EXTINF:-1 group-title="Radio" tvg-logo="https://foxxradio.com/upload/vi/1671789171.png.webp", VOV4 Tây Nguyên
+#EXTINF:-1 group-title="Radio" tvg-logo="http://kythuatvov.vn/wp-content/uploads/2021/01/Logo-30.png", VOV4 Tây Nguyên
 https://stream.vovmedia.vn/vov4tn
-#EXTINF:-1 group-title="Radio" tvg-logo="https://foxxradio.com/upload/vi/1671788035.png.webp", VOV5
-https://str.vov.gov.vn/vovlive/vov5.sdp_aac/playlist.m3u8
-#EXTINF:-1 group-title="Radio" tvg-logo="https://foxxradio.com/upload/vi/1671788129.png.webp", VOV5 24/7
+#EXTINF:-1 group-title="Radio" tvg-logo="https://foxxradio.com/upload/vi/1671788035.png.webp", VOV5 ĐỐI NGOẠI
+https://stream.vovmedia.vn/vov5
+#EXTINF:-1 group-title="Radio" tvg-logo="https://foxxradio.com/upload/vi/1671788129.png.webp", VOV5 ENGLISH 24/7
 https://stream.vovmedia.vn/vov247
 #EXTINF:-1 group-title="Radio" tvg-logo="https://foxxradio.com/upload/vi/1671787624.png.webp", VOV Giao thông Hà Nội
 https://str.vov.gov.vn/vovlive/vovGTHN.sdp_aac/chunklist_w601606653.m3u8
